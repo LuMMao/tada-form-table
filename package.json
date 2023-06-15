@@ -1,0 +1,39 @@
+{
+  "name": "tada-form-table",
+  "version": "1.0.0",
+  "description": "基于 antd 的表单表格联动封装",
+  "main": "lib/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx rollup -wc rollup.config.mjs",
+    "build": "npx rollup -c rollup.config.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuMMao/tada-form-table.git"
+  },
+  "keywords": [
+    "antd",
+    "react",
+    "form",
+    "table"
+  ],
+  "author": "LuMMao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuMMao/tada-form-table/issues"
+  },
+  "homepage": "https://github.com/LuMMao/tada-form-table#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "dayjs": "^1.11.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.25.1"
+  }
+}
